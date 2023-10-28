@@ -5,8 +5,8 @@ const ItemDetail = ({id,marca,modelo,precio,img}) => {
     <div className="contenedorItem">
         <img src={img} alt={modelo} />
         <h2>Marca: {marca}</h2>
-        <h3>Modelo {modelo}</h3>
-        <strong>Precio {precio}</strong>
+        <h3>Modelo: {modelo}</h3>
+        <strong>Precio: US$ {precio}</strong>
     </div>
   )
 }
