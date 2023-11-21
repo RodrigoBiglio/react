@@ -1,8 +1,43 @@
-# React + Vite
+# Tienda de celulares
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto de ecommerce básico que se utiliza para el curso de React. la aplicación permite ver una lista de producto de una tienda de celulares y realizar comprar en linea. los productos y las ordenes de compra se almacenan en Firebase.
 
-Currently, two official plugins are available:
+## Tecnologicas utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-Vite
+-React
+-React Router
+-Firebase
+
+## Funcionalidades 
+
+- Ver una lista de productos disponibles
+- Agregar productos al carrito de compras
+- Ver el carrito de compras
+- Realizar una orden de compra
+
+## Instalación
+
+
+### Para instalar y ejecutar la aplicacion en tu maquina local, sigue los siguientes pasos:
+
+1. Clona el repositorio a tu máquina local.
+2. Abre una terminal en el directorio del proyecto.
+3. Ejecuta el comando npm install para instalar las dependencias.
+4. Ejecuta el comando npm run dev para iniciar la aplicación.
+5. Abre tu navegador y navega a http://localhost:5173 para ver la aplicación en acción.
+
+## Configuración de Firebase
+
+### Para utilizar Firebase en esta aplicación, debes seguir los siguientes pasos:
+
+1. Crea una cuenta de Firebase y crea un nuevo proyecto.
+2. En la seccion "Authentication" de Firebase, habilita el proveedor
+3. Autenticacion de correo electronico y contraseña.
+4. En la sección "Firestore" de Firebase crea una nueva base de datos y configura las reglas de seguridad para permitir lectura/escritura solamente a usuarios autenticados.
+5. En la sección "Project settings" de Firebase, haz click en "Add app" y sigue las intrucciones para agregar una nueva aplicaicon web.
+6. Copia las credenciales de Firebase y configura las variables entorno en el archivo .env de tu proyecto   
+
+## Licencia 
+
+Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo LICENSE para obtener mas información

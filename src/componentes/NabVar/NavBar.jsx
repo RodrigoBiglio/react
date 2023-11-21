@@ -18,7 +18,7 @@ const NavBar = () => {
                 <NavLink to='categoria/samsung'>Samsumg</NavLink>
               </ li>
               <li>
-                <NavLink to='categoria/xiaomi'>XIaomi</NavLink>
+                <NavLink to='categoria/xiaomi'>Xiaomi</NavLink>
               </li>
               <li>
                 <NavLink to='categoria/apple'>Apple</NavLink>
