@@ -4,10 +4,10 @@ Este es un proyecto de ecommerce básico que se utiliza para el curso de React. 
 
 ## Tecnologicas utilizadas
 
--Vite
--React
--React Router
--Firebase
+- Vite
+- React
+- React Router
+- Firebase
 
 ## Funcionalidades 
 
